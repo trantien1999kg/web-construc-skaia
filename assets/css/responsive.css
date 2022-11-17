@@ -1,0 +1,614 @@
+/* Responsive */
+
+
+/* Mobile and tablet */
+
+@media (max-width:1023px) {
+    
+}
+@media(min-width:820px) and (max-width:1180px){
+    .w-100-t{
+        width: 100%;
+    }
+}
+
+/* Tablet */
+
+@media(min-width:740px) and (max-width:1023px) {
+    .d-none-tablet{
+        display: none !important;
+    }
+    .wrappers-about__box-right{
+        padding-left: 0 !important;
+    }
+    .d-block-tablet{
+        display: block !important;
+    }
+    .d-block-m{
+        display: block !important;
+    }
+    .post-img>img{
+        width: 100%;
+        height: auto;
+    }
+    .d-none-m{
+        display: none !important;
+    }
+    .wrap-whys__box-right-links{
+        font-size: 1.6rem !important;
+    }
+    .mt-t-10{
+        margin-top: 1rem !important;
+    }
+    
+    .mb-t-10{
+        margin-bottom: 1rem !important;
+    }
+    .mb20-t{
+        margin-bottom: 2rem !important;
+    }
+    .mb-t-16{
+        margin-bottom: 1.6rem !important;
+    }
+
+    .mt-t-16{
+        margin-top: 1.6rem !important;
+    }
+    .menu-bottom {
+        display: flex;
+    }
+    /* template mỹ trinh */
+    .wrap-customer__box{
+        height: 34.3rem !important;
+    }
+    /* End */
+    /* Chiến kế vũng tàu */
+    .transition-checkout {
+        -webkit-transform: translateY(0) translateZ(0);
+        transform: translateY(0) translateZ(0);
+    }
+    a.fa-transition {
+        display: none !important;
+    }
+    p.modifier-m>span{
+        text-align: center;
+    }
+    .content-copy{
+        justify-content: center !important;
+        margin-bottom: 5rem;
+    }
+    .desc-box[data-news] h2{
+        height: 4.3rem !important;
+    }
+    .wrapper-news__box-img>a{
+        width: 100% !important;
+    }
+    .wrapper-news__box-detail{
+        position: unset !important;
+        margin-right: 0 !important;
+        width: 100% !important;
+    }
+    .box-modal-menu{
+        padding-top: 60px !important;
+    }
+    .w-50-t{
+        width: 50%;
+    }
+    .box-mg::before{
+        display: none !important;
+    }
+    .wrapper-register__box>button{
+        min-width: 100% !important;
+    }
+    .wrapper-brands__box{
+        background: url(../../../images/bgthuonghieu.png) no-repeat center center/contain !important;
+    }
+    .wrapper-news__box-img{
+        width: 100% !important  ;
+    }
+    .owl-nav .owl-prev{
+        left: 8px !important;
+    }
+    .owl-nav .owl-next{
+        right: 8px !important;
+    }
+    .mb-t-30{
+        margin-bottom: 3rem !important;
+    }
+    .w-100-t{
+        width: 100% !important;
+    }
+    .col-30-t{
+        width: 30%;
+    }
+    .col-70-t{
+        width: 70%;
+    }
+    .wrap-productshot__boxbc-bgfake{
+        display: none !important;
+    }
+    .wrap-productshot__boxbc-content-overflow{
+        display: none !important;
+    }
+    .pb-t-10{
+        padding-bottom: 10px !important;
+    }
+    .pb-t-10{
+        padding-top: 10px !important;
+    }
+    .wrapper-introduces__boxbottom-mid-aside::before{
+        width: 11.7rem;
+    }
+    .d-flex-tablet{
+        display: flex;
+        flex-direction: column;
+    }
+    .wrapper-pricelist__boxleft{
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+    .wrapper-pricelist__boxleft>span{
+        flex: 1;
+    }
+    .wrapper-pricelist__boxleft>span>img{
+        height: 100%;
+    }
+    .wrapper-new__box-detail-aside::before{
+        width: 14rem;
+    }
+    .wrapper-sidebar__right-title>span{
+        font-size: 1.6rem;
+    }
+    .wrapper-album__box-overflow{
+        display: none;
+    }
+    /* End */
+}
+
+
+/* Mobile */
+
+@media(max-width:739px) {
+
+    .line-1-m{display: -webkit-box;-webkit-line-clamp:1;-webkit-box-orient: vertical;-moz-line-clamp:1;-moz-box-orient: vertical;text-overflow: ellipsis;white-space:normal;overflow: hidden;}
+
+    .line-2-m{display: -webkit-box;-webkit-line-clamp:2;-webkit-box-orient: vertical;-moz-line-clamp:2;-moz-box-orient: vertical;text-overflow: ellipsis;white-space:normal;overflow: hidden;}
+
+    .line-3-m{display: -webkit-box;-webkit-line-clamp:3;-webkit-box-orient: vertical;-moz-line-clamp:3;-moz-box-orient: vertical;text-overflow: ellipsis;white-space:normal;overflow: hidden;}
+
+    .line-4-m{display: -webkit-box;-webkit-line-clamp:4;-webkit-box-orient: vertical;-moz-line-clamp:4;-moz-box-orient: vertical;text-overflow: ellipsis;white-space:normal;overflow: hidden;}
+
+    .line-5-m{display: -webkit-box;-webkit-line-clamp:5;-webkit-box-orient: vertical;-moz-line-clamp:5;-moz-box-orient: vertical;text-overflow: ellipsis;white-space: normal;overflow: hidden;}
+
+    .line-6-m{display: -webkit-box;-webkit-line-clamp:6;-webkit-box-orient: vertical;-moz-line-clamp:6;-moz-box-orient: vertical;text-overflow: ellipsis;white-space: normal;overflow: hidden;}
+
+    .line-7-m{display: -webkit-box;-webkit-line-clamp:7;-webkit-box-orient: vertical;-moz-line-clamp:7;-moz-box-orient: vertical;text-overflow: ellipsis;white-space: normal;overflow: hidden;}
+
+    .line-8-m{display: -webkit-box;-webkit-line-clamp:8;-webkit-box-orient: vertical;-moz-line-clamp:8;-moz-box-orient: vertical;text-overflow: ellipsis;white-space: normal;overflow: hidden;}
+
+    .line-9-m{display: -webkit-box;-webkit-line-clamp:9;-webkit-box-orient: vertical;-moz-line-clamp:9;-moz-box-orient: vertical;text-overflow: ellipsis;white-space: normal;overflow: hidden;}
+
+    .line-10-m{display: -webkit-box;-webkit-line-clamp:7;-webkit-box-orient: vertical;-moz-line-clamp:10;-moz-box-orient: vertical;text-overflow: ellipsis;white-space: normal;overflow: hidden;}
+
+    .grid.wide{
+        max-width: 100% !important;
+    }
+
+    .container{
+        max-width:100% !important;
+    }
+    
+    .mt-m-10{
+        margin-top: 1rem !important;
+    }
+    .mb-m-10{
+        margin-bottom: 1rem !important;
+    }
+    .mt-m-20{
+        margin-top: 2rem !important;
+    }
+    .mb-m-20{
+        margin-bottom: 2rem !important;
+    }
+    .mb-m-8{
+        margin-bottom: 0.8rem !important;
+    }
+    .mt-m-8{
+        margin-top: 0.8rem !important;
+    }
+    .pb-m-0{
+        padding-bottom: 0 !important;
+    }
+    .pb-m-10{
+        padding-bottom: 10px !important;
+    }
+    .pt-m-10{
+        padding-top: 10px !important;
+    }
+    .menu-bottom {
+        display: flex;
+    }
+    .realestate-sale{
+        padding: 3rem 0;
+    }
+    #wrapper{
+        background: #fff !important;
+    }
+    .realestate-sale__box-body{
+        padding: 0rem 0!important;
+    }
+    .realestate-sale__box-body-detail-content-title>a{
+        font-size: 1.4rem;
+    }
+    .realestate-sale__box-body-detail-content-aside-title{
+        border: 0;
+    }
+    .realestate-sale__box-body-detail-content-view{
+        margin-top: 0;
+    }
+    .realestate-sale__box-body-detail-content-view>span>i{
+        margin-right: 3px;
+        font-size: 1.3rem;
+        width: 10px;
+    }
+    .realestate-sale__box-body-detail-content-view>span{
+        font-size: 1.3rem;
+        margin-bottom: 1rem;
+        line-height: 1.3;
+    }
+    .realestate-sale__box-body-detail{
+        margin-bottom: 0;
+        padding: 2rem 0;
+        border-bottom: 1px solid #ccc;
+    }
+   
+    .realestate-sale__box-body-detail-content-title{
+        height: unset;
+    }
+    .realestate-sale__box-body-detail-img-overplay>span{
+        font-size: 1.2rem;
+        color: var(--html-cl-website);
+        background-image: unset;
+        -webkit-background-clip: unset;
+        -webkit-text-fill-color: unset;
+    }
+    .realestate-sale__box-title>a{
+        padding: 1rem;
+        font-size: 1.6rem;
+        text-align: center;
+    }
+    .realestate-sale__box-body-detail:last-child{
+        border: 0;
+    }
+    .pagination{
+        margin:2rem 2rem;
+    }
+    .realestate-sale__sidebar__top-title>span{
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    .realestate-sale__sidebar__top-box--mobile{
+        padding: 0;
+    }
+    .realestate-sale__sidebar__top-box-title>a{
+        font-size: 1.5rem;
+    }
+    .realestate-sale__sidebar__top-box--mobile{
+        padding: 1rem 0;
+        padding-top: 2rem;
+    }
+    .realestate-sale__sidebar__top-box-aside-img{
+        width: 40%;
+    }
+    .realestate-sale__sidebar__top-box-aside-detail{
+        padding-left: 1.5rem;
+    }
+    .realestate-sale__sidebar__top-box-form>select{
+        font-size: 1.4rem;
+        padding: 8px 15px;
+    }
+    .realestate-sale__sidebar__top-box-form-btn>button{
+        min-width: 10rem;
+        font-size: 1.3rem;
+    }
+    .realestate-sale__sidebar__top-title>h2>a{
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    .realestate-sale__sidebar__top-box-view>a{
+        font-size: 1.6rem;
+    }
+    .wrapper-introduces__img-small{
+        position: unset;
+        width: 100%;
+        height: auto;
+        transform: unset;
+        padding: 1rem;
+    }
+    .wrapper-introduces__boxbottom-img>span{
+        width: 6.8rem;
+        height: 6.8rem;
+    }
+    .wrapper-introduces__boxbottom-img>span>img{
+        width: 5.8rem;
+        height: 5.8rem;
+    }
+    .wrapper-introduces__boxbottom-detail-numb{
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+    }
+    .wrapper-introduces__title-des{
+        margin-bottom: 3rem;
+    }
+    .wrap-work__box-detail-line{
+        margin-top: 0 !important;
+    }
+    .wrapper-register__title-default>span{
+        font-size: 2rem;
+    }
+    .wrapper-register__boxleft{
+        padding: 2rem;
+    }
+    .mb-m-18{
+        margin-bottom: 1.8rem !important;
+    }
+    .wrapper-register__boxleft-form-row input{
+        font-size: 1.5rem;
+        height: 4.2rem;
+        line-height: 3.8rem;
+    }
+    .wrapper-register__boxleft-form-row>button{
+        min-width: 100%;
+        font-size: 1.5rem;
+    }
+    .wrapper-transaction-title>h2>span{
+        font-size: 2rem;
+    }
+    .wrapper-projects__box-detail{
+        padding: 1rem;
+    }
+    .wrapper-projects__box-detail-title{
+        font-size: 1.4rem;
+        line-height: 1.4;
+        height: calc(2.8 * 14px);
+    }
+    .wrapper-projects__box-detail-title>a{
+        font-size: 1.4rem;
+    }
+    .wrapper-transaction-title>h2>span::before{
+        width: 10rem;
+    }
+    .wrapper-transaction{
+        padding: 3rem 0;
+    }
+    .realestate-searchs-top-title{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .realestate-searchs-top-form>button{
+        font-size: 1.4rem;
+        padding: 8px 15px;
+    }
+    .realestate-searchs-top-form>select{
+        font-size: 1.3rem;
+        padding: 8px 15px;
+    }
+    .realestate-searchs-top-title>span{
+        font-size: 2rem;
+    }
+    .realestate-sale__sidebar__top-box-items{
+        padding: 1rem 0.7rem;
+    }
+    .realestate-sale__box-body-detail-img{
+        height: 100%;
+    }
+    .realestate-sale__box-body-detail-img>a{
+        height: 100%;
+    }
+    .title-default h1>span{
+        font-size: 1.8rem;
+    }
+    .logo__left img{
+        margin-left: 0;
+    }
+    .logo__left{
+        display: flex;
+        justify-content: center;
+        margin-right: 30px;
+    }
+    .logo__left>a{
+        width: 198px;
+        height: 60px;
+    }
+    .logo__left>a>img{
+        object-fit: scale-down;
+    }
+    .copy-text{
+        text-align: center;
+    }
+    .content-copy{
+        margin-bottom: 6rem;
+    }
+    .wrapper__realestatesale{
+        padding: 0;
+    }
+    .wrapper__realestatesale-paging{
+        margin-top: 20px !important;
+    }
+    ul.pagination>li>a{
+        padding: 5px 10px;
+    }
+    .realestate-sale__sidebar__top-title>div>a{
+        font-size: 1.6rem;
+        padding: 1rem;
+    }
+    .realestate-sale__sidebar__top-box-aside-detail-title{
+        max-height: 8.37rem;
+        line-height: 2rem;
+    }
+    .realestate-sale__sidebar__top-box-aside-detail-title>a{
+        font-weight: bold;
+    }
+    .realestate-sale__sidebar__top-box-title{
+        font-size: 1.5rem;
+        max-height: calc(2.6 * 15px);
+    }
+    .append__subject{
+        height: 6rem;
+        line-height: 9rem;
+    }
+    .append__subject a{
+        font-size: 1.2rem;
+    }
+    .product-detail__sc-aside-left{
+        padding: 0;
+    }
+    .wrappers-product__status>span.active{
+        font-size: 1.3rem;
+    }
+    .wrappers-product__status>span.noactive{
+        font-size: 1.3rem;
+    }
+    div.tab {
+        display: flex !important;
+    }
+    div.tab button{
+        padding: 10px 10px;
+        font-size: 14px;
+    }
+    .box-detail>h1{
+        font-size: 1.6rem;
+    }
+    .wrapper-product__detail-content>span{
+        font-size: 1.4rem;
+    }
+    .wrapper-product__detail-content>span>i{
+        margin-right: 5px;
+        width: 15px;
+    }
+    #GOOGLEMAP>iframe{
+        max-height: 240px;
+    }
+    .wrapper-box__detail-ralated-content{
+        margin-top: 0 !important;
+    }
+    .post-date--modifiers>span{
+        font-size: 1.3rem;
+    }
+    .wrapper__bg__bray{
+        padding: 0;
+        background: transparent;
+    }
+    .wrapper-sidebar__right-detail-list{
+        max-height: unset;
+        overflow: unset;
+    }
+    .wrapper-sidebar__right-title{
+        padding-bottom: 20px;
+        border-bottom: 1px solid #ccc;
+    }
+    .wrapper-sidebar__right-detail-list{
+        margin-top: 10px;
+    }
+    .wrapper-sidebar__right-detail__box-img{
+        width: 35%;
+    }
+    /* .wrapper-sidebar__right-detail__box-content-time{
+        margin-top: 5px;
+    } */
+    .wrapper-sidebar__right-detail__box-content-title{
+        font-weight: bold;
+        height: 8rem;
+        line-height: 2rem;
+    }
+    .post-date{
+        border: 0;
+    }
+    h2.post-name{
+        max-height: 5.4rem;
+    }
+    .wrapper-register__bgfake{
+        position: unset;
+        padding: 3rem 0;
+        transform: unset;
+        min-height: 26rem;
+    }
+    .wrapper-register__bgfake-box-title>span{
+        font-size: 2rem;
+    }
+    .realestate-sale__box-body-detail-img-overplay-count>span{
+        font-size: 1rem;
+    }
+    .realestate-sale__box-body-detail-img-overplay-count{
+        bottom: 7px;
+        right: 7px;
+    }
+    .wrappers-news-detail__author{
+        justify-content: center;
+    }
+    .wrappers-news-detail__author-img>a>img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        -ms-object-fit: cover;
+        -webkit-object-fit: cover;
+        -o-object-fit: cover;
+        -moz-object-fit: cover;
+        aspect-ratio: 160 / 160;
+        border-radius: 50%;
+    }
+    .wrappers-news-detail__author-img>a{
+        width: 16rem;
+    }
+    .wrappers-news-detail__author-img{
+       width: 100%;
+       display: flex;
+       justify-content: center;
+    }
+    .wrappers-news-detail__author-content{
+        padding-left: 0;
+        width: 100%;
+    }
+    .wrappers-news-detail__author-content{
+        margin-top: 20px;
+        text-align: center;
+    }
+    .wrappers-news-detail__author-content-socical-list{
+        justify-content: center;
+    }
+    .box-contact{
+        padding: 0;
+    }
+    .wrapper-contact__aside-top{
+        padding: 1rem;
+    }
+    .item{
+        padding: 0 0.4rem;
+    }
+    .desc-footer a:not(.no-hover){
+        font-size: 1.4rem;
+    }
+    .tabcontent{
+        padding: 1rem;
+    }
+    .wrapper-deposits__box-detail-title{
+        font-size: 1.5rem;
+        max-height: calc(15px * 2.8);
+    }
+    .wrapper-deposits__box-detail-title>a{
+        font-size: 1.5rem;
+    }
+    .boxslider_details{
+        bottom: unset;
+        top: 50%;
+    }
+    .boxslider_details__des>span{
+        font-size: 5rem;
+    }
+    .boxslider_details-title>span{
+        font-size: 11rem;
+    }
+    /* End */
+
+}

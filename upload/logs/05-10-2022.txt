@@ -1,0 +1,6 @@
+27.74.214.254(admin)--update--setting([]) (10:14:28 05/10/2022)
+27.74.214.254(admin)--query--tables(delete from table_seo where idmuc =  and com = 'setting' and act = 'capnhat' and type = ) (10:14:28 05/10/2022)
+27.74.214.254(admin)--insert--seo(449) (10:14:28 05/10/2022)
+27.74.214.254(admin)--update--setting([]) (10:15:05 05/10/2022)
+27.74.214.254(admin)--query--tables(delete from table_seo where idmuc =  and com = 'setting' and act = 'capnhat' and type = ) (10:15:05 05/10/2022)
+27.74.214.254(admin)--insert--seo(450) (10:15:05 05/10/2022)
